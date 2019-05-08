@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 4002",
     "lint": "ng lint",
     "app_build": "npm run lib_build && ng build --prod --base-href /angular-split/ && npm run app_lazy_build && npm run app_lazy2_build",
     "app_analyze": "npm run lib_build && ng build --prod --stats-json && webpack-bundle-analyzer dist/angular-split-app/stats.json",
